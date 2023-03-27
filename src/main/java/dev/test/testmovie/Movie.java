@@ -12,7 +12,6 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 @Document(collection = "movies")
 @Data
-
 @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
